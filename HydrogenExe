@@ -1,20 +1,19 @@
 local function createGui(parent)
 	--ScreenGui1--
 	local ScreenGui1 = Instance.new("ScreenGui",parent)
-	ScreenGui1["DisplayOrder"] = 2
 	ScreenGui1["IgnoreGuiInset"] = true
 	ScreenGui1["Name"] = "HydrogenGUI"
-	ScreenGui1["ZIndexBehavior"] = Enum.ZIndexBehavior.Sibling
+	ScreenGui1["DisplayOrder"] = 2
 	----ScreenGui1----
 	--Frame2--
 	local Frame2 = Instance.new("Frame",ScreenGui1)
 	Frame2["AnchorPoint"] = Vector2.new(0.5, 0.5)
 	Frame2["Name"] = "SideBar"
-	Frame2["Position"] = UDim2.new(0.89227289, 0, 0.5, 0)
+	Frame2["Position"] = UDim2.new(0.907398224, 0, 0.5, 0)
 	Frame2["BorderColor3"] = Color3.new(0, 0, 0)
-	Frame2["Size"] = UDim2.new(0.215454459, 0, 1, 0)
+	Frame2["Size"] = UDim2.new(0.185203716, 0, 1, 0)
 	Frame2["BorderSizePixel"] = 0
-	Frame2["BackgroundColor3"] = Color3.new(0.133333, 0.133333, 0.133333)
+	Frame2["BackgroundColor3"] = Color3.new(0.0862745, 0.0862745, 0.0862745)
 	----Frame2----
 	--ImageLabel3--
 	local ImageLabel3 = Instance.new("ImageLabel",Frame2)
@@ -48,7 +47,7 @@ local function createGui(parent)
 	----Frame6----
 	--UIListLayout7--
 	local UIListLayout7 = Instance.new("UIListLayout",Frame6)
-	UIListLayout7["Padding"] = UDim.new(0.0199999996, 0)
+	UIListLayout7["Padding"] = UDim.new(0.0299999993, 0)
 	UIListLayout7["HorizontalAlignment"] = Enum.HorizontalAlignment.Center
 	UIListLayout7["SortOrder"] = Enum.SortOrder.LayoutOrder
 	----UIListLayout7----
@@ -65,7 +64,7 @@ local function createGui(parent)
 	TextButton8["TextSize"] = 14
 	TextButton8["Size"] = UDim2.new(1, 0, 0.156429946, 0)
 	TextButton8["BorderSizePixel"] = 0
-	TextButton8["BackgroundColor3"] = Color3.new(0.0784314, 0.0784314, 0.0784314)
+	TextButton8["BackgroundColor3"] = Color3.new(0.0666667, 0.0666667, 0.0666667)
 	----TextButton8----
 	--UICorner9--
 	local UICorner9 = Instance.new("UICorner",TextButton8)
@@ -75,7 +74,7 @@ local function createGui(parent)
 	local TextLabel10 = Instance.new("TextLabel",TextButton8)
 	TextLabel10["TextWrapped"] = true
 	TextLabel10["TextXAlignment"] = Enum.TextXAlignment.Left
-	TextLabel10["TextColor3"] = Color3.new(1, 1, 1)
+	TextLabel10["TextColor3"] = Color3.new(0.529412, 0.729412, 0.890196)
 	TextLabel10["BorderColor3"] = Color3.new(0, 0, 0)
 	TextLabel10["Text"] = "Home"
 	TextLabel10["TextSize"] = 18
@@ -87,7 +86,7 @@ local function createGui(parent)
 	TextLabel10["Size"] = UDim2.new(0.704156816, 0, 0.796115816, 0)
 	TextLabel10["BackgroundTransparency"] = 1
 	TextLabel10["BorderSizePixel"] = 0
-	TextLabel10["BackgroundColor3"] = Color3.new(1, 1, 1)
+	TextLabel10["BackgroundColor3"] = Color3.new(0, 0.984314, 1)
 	----TextLabel10----
 	--UITextSizeConstraint11--
 	local UITextSizeConstraint11 = Instance.new("UITextSizeConstraint",TextLabel10)
@@ -95,12 +94,13 @@ local function createGui(parent)
 	----UITextSizeConstraint11----
 	--UIStroke12--
 	local UIStroke12 = Instance.new("UIStroke",TextButton8)
-	UIStroke12["Color"] = Color3.new(0.333333, 0.333333, 0.333333)
+	UIStroke12["Color"] = Color3.new(0.529412, 0.729412, 0.890196)
 	UIStroke12["Thickness"] = 0.5
 	UIStroke12["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border
 	----UIStroke12----
 	--ImageLabel13--
 	local ImageLabel13 = Instance.new("ImageLabel",TextButton8)
+	ImageLabel13["ImageColor3"] = Color3.new(0.529412, 0.729412, 0.890196)
 	ImageLabel13["BorderColor3"] = Color3.new(0, 0, 0)
 	ImageLabel13["AnchorPoint"] = Vector2.new(0.5, 0.5)
 	ImageLabel13["Image"] = "rbxassetid://121662885557667"
@@ -109,7 +109,7 @@ local function createGui(parent)
 	ImageLabel13["Size"] = UDim2.new(0.150000006, 0, 0.5, 0)
 	ImageLabel13["BackgroundTransparency"] = 1
 	ImageLabel13["BorderSizePixel"] = 0
-	ImageLabel13["BackgroundColor3"] = Color3.new(1, 1, 1)
+	ImageLabel13["BackgroundColor3"] = Color3.new(0, 0.984314, 1)
 	----ImageLabel13----
 	--TextButton14--
 	local TextButton14 = Instance.new("TextButton",Frame6)
@@ -123,7 +123,7 @@ local function createGui(parent)
 	TextButton14["TextSize"] = 14
 	TextButton14["Size"] = UDim2.new(1, 0, 0.156429946, 0)
 	TextButton14["BorderSizePixel"] = 0
-	TextButton14["BackgroundColor3"] = Color3.new(0.0784314, 0.0784314, 0.0784314)
+	TextButton14["BackgroundColor3"] = Color3.new(0.0666667, 0.0666667, 0.0666667)
 	----TextButton14----
 	--UICorner15--
 	local UICorner15 = Instance.new("UICorner",TextButton14)
@@ -181,7 +181,7 @@ local function createGui(parent)
 	TextButton20["TextSize"] = 14
 	TextButton20["Size"] = UDim2.new(1, 0, 0.156429946, 0)
 	TextButton20["BorderSizePixel"] = 0
-	TextButton20["BackgroundColor3"] = Color3.new(0.0784314, 0.0784314, 0.0784314)
+	TextButton20["BackgroundColor3"] = Color3.new(0.0666667, 0.0666667, 0.0666667)
 	----TextButton20----
 	--UICorner21--
 	local UICorner21 = Instance.new("UICorner",TextButton20)
@@ -239,7 +239,7 @@ local function createGui(parent)
 	TextButton26["TextSize"] = 14
 	TextButton26["Size"] = UDim2.new(1, 0, 0.156429946, 0)
 	TextButton26["BorderSizePixel"] = 0
-	TextButton26["BackgroundColor3"] = Color3.new(0.0784314, 0.0784314, 0.0784314)
+	TextButton26["BackgroundColor3"] = Color3.new(0.0666667, 0.0666667, 0.0666667)
 	----TextButton26----
 	--UICorner27--
 	local UICorner27 = Instance.new("UICorner",TextButton26)
@@ -285,72 +285,68 @@ local function createGui(parent)
 	ImageLabel31["BorderSizePixel"] = 0
 	ImageLabel31["BackgroundColor3"] = Color3.new(1, 1, 1)
 	----ImageLabel31----
-	--TextButton32--
-	local TextButton32 = Instance.new("TextButton",Frame2)
-	TextButton32["TextColor3"] = Color3.new(0, 0, 0)
-	TextButton32["BorderColor3"] = Color3.new(0, 0, 0)
-	TextButton32["Text"] = ""
-	TextButton32["AutoButtonColor"] = false
-	TextButton32["AnchorPoint"] = Vector2.new(0.5, 0.5)
-	TextButton32["Font"] = Enum.Font.SourceSans
-	TextButton32["Name"] = "HideUI"
-	TextButton32["Position"] = UDim2.new(0.50603801, 0, 0.938844025, 0)
-	TextButton32["TextSize"] = 14
-	TextButton32["Size"] = UDim2.new(0.782290101, 0, 0.0880469382, 0)
-	TextButton32["BorderSizePixel"] = 0
-	TextButton32["BackgroundColor3"] = Color3.new(0.0784314, 0.0784314, 0.0784314)
-	----TextButton32----
-	--TextLabel33--
-	local TextLabel33 = Instance.new("TextLabel",TextButton32)
-	TextLabel33["TextWrapped"] = true
-	TextLabel33["TextXAlignment"] = Enum.TextXAlignment.Left
-	TextLabel33["TextColor3"] = Color3.new(1, 1, 1)
-	TextLabel33["BorderColor3"] = Color3.new(0, 0, 0)
-	TextLabel33["Text"] = "Hide UI"
-	TextLabel33["TextSize"] = 18
-	TextLabel33["TextScaled"] = true
-	TextLabel33["AnchorPoint"] = Vector2.new(0.5, 0.5)
-	TextLabel33["Font"] = Enum.Font.GothamMedium
-	TextLabel33["Name"] = "Title"
-	TextLabel33["Position"] = UDim2.new(0.568561137, 0, 0.481760591, 0)
-	TextLabel33["Size"] = UDim2.new(0.573370516, 0, 0.796115875, 0)
-	TextLabel33["BackgroundTransparency"] = 1
-	TextLabel33["BorderSizePixel"] = 0
-	TextLabel33["BackgroundColor3"] = Color3.new(1, 1, 1)
-	----TextLabel33----
-	--UITextSizeConstraint34--
-	local UITextSizeConstraint34 = Instance.new("UITextSizeConstraint",TextLabel33)
-	UITextSizeConstraint34["MaxTextSize"] = 18
-	----UITextSizeConstraint34----
-	--UIStroke35--
-	local UIStroke35 = Instance.new("UIStroke",TextButton32)
-	UIStroke35["Color"] = Color3.new(0.333333, 0.333333, 0.333333)
-	UIStroke35["Thickness"] = 0.5
-	UIStroke35["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border
-	----UIStroke35----
-	--ImageLabel36--
-	local ImageLabel36 = Instance.new("ImageLabel",TextButton32)
-	ImageLabel36["Size"] = UDim2.new(0.150000006, 0, 0.5, 0)
-	ImageLabel36["Image"] = "rbxassetid://130845133408430"
-	ImageLabel36["BackgroundTransparency"] = 1
-	ImageLabel36["Position"] = UDim2.new(0.0985981226, 0, 0.234584644, 0)
-	ImageLabel36["BorderColor3"] = Color3.new(0, 0, 0)
-	ImageLabel36["Name"] = "HideUI"
-	ImageLabel36["BorderSizePixel"] = 0
-	ImageLabel36["BackgroundColor3"] = Color3.new(1, 1, 1)
-	----ImageLabel36----
-	--UICorner37--
-	local UICorner37 = Instance.new("UICorner",TextButton32)
-	UICorner37["CornerRadius"] = UDim.new(0.200000003, 0)
-	----UICorner37----
-	--UIGradient38--
-	local UIGradient38 = Instance.new("UIGradient",Frame2)
-	UIGradient38["Rotation"] = 90
-	UIGradient38["Color"] = ColorSequence.new{
-		ColorSequenceKeypoint.new(0,Color3.new(0.890196,0.890196,0.890196)),
-		ColorSequenceKeypoint.new(1,Color3.new(0.223529,0.223529,0.223529))
-	}
-	----UIGradient38----
+	--Script32--
+	local Script32 = Instance.new("Script",Frame6)
+	Script32["Name"] = "ColourChange"
+	----Script32----
+	--TextButton33--
+	local TextButton33 = Instance.new("TextButton",Frame2)
+	TextButton33["TextColor3"] = Color3.new(0, 0, 0)
+	TextButton33["BorderColor3"] = Color3.new(0, 0, 0)
+	TextButton33["Text"] = ""
+	TextButton33["AutoButtonColor"] = false
+	TextButton33["AnchorPoint"] = Vector2.new(0.5, 0.5)
+	TextButton33["Font"] = Enum.Font.SourceSans
+	TextButton33["Name"] = "HideUI"
+	TextButton33["Position"] = UDim2.new(0.50603801, 0, 0.938844025, 0)
+	TextButton33["TextSize"] = 14
+	TextButton33["Size"] = UDim2.new(0.782290101, 0, 0.0880469382, 0)
+	TextButton33["BorderSizePixel"] = 0
+	TextButton33["BackgroundColor3"] = Color3.new(0.0666667, 0.0666667, 0.0666667)
+	----TextButton33----
+	--TextLabel34--
+	local TextLabel34 = Instance.new("TextLabel",TextButton33)
+	TextLabel34["TextWrapped"] = true
+	TextLabel34["TextXAlignment"] = Enum.TextXAlignment.Left
+	TextLabel34["TextColor3"] = Color3.new(1, 1, 1)
+	TextLabel34["BorderColor3"] = Color3.new(0, 0, 0)
+	TextLabel34["Text"] = "Hide UI"
+	TextLabel34["TextSize"] = 18
+	TextLabel34["TextScaled"] = true
+	TextLabel34["AnchorPoint"] = Vector2.new(0.5, 0.5)
+	TextLabel34["Font"] = Enum.Font.GothamMedium
+	TextLabel34["Name"] = "Title"
+	TextLabel34["Position"] = UDim2.new(0.568561137, 0, 0.481760591, 0)
+	TextLabel34["Size"] = UDim2.new(0.573370516, 0, 0.796115875, 0)
+	TextLabel34["BackgroundTransparency"] = 1
+	TextLabel34["BorderSizePixel"] = 0
+	TextLabel34["BackgroundColor3"] = Color3.new(1, 1, 1)
+	----TextLabel34----
+	--UITextSizeConstraint35--
+	local UITextSizeConstraint35 = Instance.new("UITextSizeConstraint",TextLabel34)
+	UITextSizeConstraint35["MaxTextSize"] = 18
+	----UITextSizeConstraint35----
+	--UIStroke36--
+	local UIStroke36 = Instance.new("UIStroke",TextButton33)
+	UIStroke36["Color"] = Color3.new(0.333333, 0.333333, 0.333333)
+	UIStroke36["Thickness"] = 0.5
+	UIStroke36["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border
+	----UIStroke36----
+	--ImageLabel37--
+	local ImageLabel37 = Instance.new("ImageLabel",TextButton33)
+	ImageLabel37["Size"] = UDim2.new(0.150000006, 0, 0.5, 0)
+	ImageLabel37["Image"] = "rbxassetid://130845133408430"
+	ImageLabel37["BackgroundTransparency"] = 1
+	ImageLabel37["Position"] = UDim2.new(0.0985981226, 0, 0.234584644, 0)
+	ImageLabel37["BorderColor3"] = Color3.new(0, 0, 0)
+	ImageLabel37["Name"] = "HideUI"
+	ImageLabel37["BorderSizePixel"] = 0
+	ImageLabel37["BackgroundColor3"] = Color3.new(1, 1, 1)
+	----ImageLabel37----
+	--UICorner38--
+	local UICorner38 = Instance.new("UICorner",TextButton33)
+	UICorner38["CornerRadius"] = UDim.new(0.200000003, 0)
+	----UICorner38----
 	--UIStroke39--
 	local UIStroke39 = Instance.new("UIStroke",Frame2)
 	UIStroke39["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border
@@ -360,160 +356,389 @@ local function createGui(parent)
 	local Frame40 = Instance.new("Frame",ScreenGui1)
 	Frame40["AnchorPoint"] = Vector2.new(0.5, 0.5)
 	Frame40["Name"] = "MainContentHolder"
-	Frame40["Position"] = UDim2.new(0.393197268, 0, 0.498607248, 0)
+	Frame40["Position"] = UDim2.new(0.418626666, 0, 0.578084946, 0)
 	Frame40["BorderColor3"] = Color3.new(0, 0, 0)
-	Frame40["Size"] = UDim2.new(0.762233436, 0, 0.950001836, 0)
+	Frame40["Size"] = UDim2.new(0.757153153, 0, 0.788402021, 0)
 	Frame40["BorderSizePixel"] = 0
-	Frame40["BackgroundColor3"] = Color3.new(0.133333, 0.133333, 0.133333)
+	Frame40["BackgroundColor3"] = Color3.new(0.0862745, 0.0862745, 0.0862745)
 	----Frame40----
-	--UIGradient41--
-	local UIGradient41 = Instance.new("UIGradient",Frame40)
-	UIGradient41["Rotation"] = 90
-	UIGradient41["Color"] = ColorSequence.new{
-		ColorSequenceKeypoint.new(0,Color3.new(0.890196,0.890196,0.890196)),
-		ColorSequenceKeypoint.new(1,Color3.new(0.223529,0.223529,0.223529))
-	}
-	----UIGradient41----
-	--UICorner42--
-	local UICorner42 = Instance.new("UICorner",Frame40)
-	UICorner42["CornerRadius"] = UDim.new(0.0199999996, 0)
-	----UICorner42----
-	--UIStroke43--
-	local UIStroke43 = Instance.new("UIStroke",Frame40)
-	UIStroke43["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border
-	UIStroke43["Color"] = Color3.new(0.333333, 0.333333, 0.333333)
-	----UIStroke43----
-	--Frame44--
-	local Frame44 = Instance.new("Frame",Frame40)
-	Frame44["AnchorPoint"] = Vector2.new(0.5, 0.5)
-	Frame44["Size"] = UDim2.new(1, 0, 1, 0)
-	Frame44["BackgroundTransparency"] = 1
-	Frame44["Position"] = UDim2.new(0.5, 0, 0.5, 0)
-	Frame44["BorderColor3"] = Color3.new(0, 0, 0)
-	Frame44["Name"] = "Home"
-	Frame44["BorderSizePixel"] = 0
-	Frame44["BackgroundColor3"] = Color3.new(1, 1, 1)
-	----Frame44----
-	--Frame45--
-	local Frame45 = Instance.new("Frame",Frame44)
-	Frame45["Name"] = "Player"
-	Frame45["Position"] = UDim2.new(0.0124946097, 0, 0.0234569255, 0)
-	Frame45["BorderColor3"] = Color3.new(0, 0, 0)
-	Frame45["Size"] = UDim2.new(0.432267994, 0, 0.304661155, 0)
-	Frame45["BorderSizePixel"] = 0
-	Frame45["BackgroundColor3"] = Color3.new(0.0784314, 0.0784314, 0.0784314)
-	----Frame45----
-	--UICorner46--
-	local UICorner46 = Instance.new("UICorner",Frame45)
-	UICorner46["CornerRadius"] = UDim.new(0.0500000007, 0)
-	----UICorner46----
+	--UIStroke41--
+	local UIStroke41 = Instance.new("UIStroke",Frame40)
+	UIStroke41["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border
+	UIStroke41["Color"] = Color3.new(0.333333, 0.333333, 0.333333)
+	----UIStroke41----
+	--Frame42--
+	local Frame42 = Instance.new("Frame",Frame40)
+	Frame42["AnchorPoint"] = Vector2.new(0.5, 0.5)
+	Frame42["Size"] = UDim2.new(1, 0, 1, 0)
+	Frame42["BackgroundTransparency"] = 1
+	Frame42["Position"] = UDim2.new(0.5, 0, 0.5, 0)
+	Frame42["BorderColor3"] = Color3.new(0, 0, 0)
+	Frame42["Name"] = "Home"
+	Frame42["BorderSizePixel"] = 0
+	Frame42["BackgroundColor3"] = Color3.new(1, 1, 1)
+	----Frame42----
+	--Frame43--
+	local Frame43 = Instance.new("Frame",Frame42)
+	Frame43["Name"] = "Player"
+	Frame43["Position"] = UDim2.new(0.0124946097, 0, 0.0234569255, 0)
+	Frame43["BorderColor3"] = Color3.new(0, 0, 0)
+	Frame43["Size"] = UDim2.new(0.432267994, 0, 0.304661155, 0)
+	Frame43["BorderSizePixel"] = 0
+	Frame43["BackgroundColor3"] = Color3.new(0.0666667, 0.0666667, 0.0666667)
+	----Frame43----
+	--UICorner44--
+	local UICorner44 = Instance.new("UICorner",Frame43)
+	UICorner44["CornerRadius"] = UDim.new(0.0500000007, 0)
+	----UICorner44----
+	--UIStroke45--
+	local UIStroke45 = Instance.new("UIStroke",Frame43)
+	UIStroke45["Color"] = Color3.new(0.333333, 0.333333, 0.333333)
+	UIStroke45["Thickness"] = 0.699999988079071
+	UIStroke45["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border
+	----UIStroke45----
+	--ImageLabel46--
+	local ImageLabel46 = Instance.new("ImageLabel",Frame43)
+	ImageLabel46["BorderColor3"] = Color3.new(0, 0, 0)
+	ImageLabel46["AnchorPoint"] = Vector2.new(0.5, 0.5)
+	ImageLabel46["Image"] = "rbxasset://textures/ui/GuiImagePlaceholder.png"
+	ImageLabel46["Name"] = "Player"
+	ImageLabel46["Position"] = UDim2.new(0.159616709, 0, 0.497621328, 0)
+	ImageLabel46["Size"] = UDim2.new(0.269682407, 0, 0.816462338, 0)
+	ImageLabel46["BackgroundTransparency"] = 1
+	ImageLabel46["BorderSizePixel"] = 0
+	ImageLabel46["BackgroundColor3"] = Color3.new(1, 1, 1)
+	----ImageLabel46----
 	--UIStroke47--
-	local UIStroke47 = Instance.new("UIStroke",Frame45)
-	UIStroke47["Color"] = Color3.new(0.333333, 0.333333, 0.333333)
-	UIStroke47["Thickness"] = 0.699999988079071
+	local UIStroke47 = Instance.new("UIStroke",ImageLabel46)
 	UIStroke47["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border
+	UIStroke47["Color"] = Color3.new(0.333333, 0.333333, 0.333333)
 	----UIStroke47----
-	--ImageLabel48--
-	local ImageLabel48 = Instance.new("ImageLabel",Frame45)
-	ImageLabel48["BorderColor3"] = Color3.new(0, 0, 0)
-	ImageLabel48["AnchorPoint"] = Vector2.new(0.5, 0.5)
-	ImageLabel48["Image"] = "rbxasset://textures/ui/GuiImagePlaceholder.png"
-	ImageLabel48["Name"] = "Player"
-	ImageLabel48["Position"] = UDim2.new(0.19909738, 0, 0.497621328, 0)
-	ImageLabel48["Size"] = UDim2.new(0.34864372, 0, 0.816462457, 0)
-	ImageLabel48["BackgroundTransparency"] = 1
-	ImageLabel48["BorderSizePixel"] = 0
-	ImageLabel48["BackgroundColor3"] = Color3.new(1, 1, 1)
-	----ImageLabel48----
-	--UIStroke49--
-	local UIStroke49 = Instance.new("UIStroke",ImageLabel48)
-	UIStroke49["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border
-	UIStroke49["Color"] = Color3.new(0.333333, 0.333333, 0.333333)
-	----UIStroke49----
-	--UICorner50--
-	local UICorner50 = Instance.new("UICorner",ImageLabel48)
-	UICorner50["CornerRadius"] = UDim.new(2, 0)
-	----UICorner50----
-	--Script51--
-	local Script51 = Instance.new("Script",ImageLabel48)
-	Script51["Name"] = "User"
-	----Script51----
+	--UICorner48--
+	local UICorner48 = Instance.new("UICorner",ImageLabel46)
+	UICorner48["CornerRadius"] = UDim.new(2, 0)
+	----UICorner48----
+	--Script49--
+	local Script49 = Instance.new("Script",ImageLabel46)
+	Script49["Name"] = "User"
+	----Script49----
+	--TextLabel50--
+	local TextLabel50 = Instance.new("TextLabel",Frame43)
+	TextLabel50["TextWrapped"] = true
+	TextLabel50["TextXAlignment"] = Enum.TextXAlignment.Left
+	TextLabel50["TextColor3"] = Color3.new(1, 1, 1)
+	TextLabel50["BorderColor3"] = Color3.new(0, 0, 0)
+	TextLabel50["Text"] = "Welcome,"
+	TextLabel50["TextSize"] = 16
+	TextLabel50["TextScaled"] = true
+	TextLabel50["AnchorPoint"] = Vector2.new(0.5, 0.5)
+	TextLabel50["Font"] = Enum.Font.GothamMedium
+	TextLabel50["Name"] = "Welcome"
+	TextLabel50["Position"] = UDim2.new(0.632973433, 0, 0.183890805, 0)
+	TextLabel50["Size"] = UDim2.new(0.600428045, 0, 0.197467282, 0)
+	TextLabel50["BackgroundTransparency"] = 1
+	TextLabel50["BorderSizePixel"] = 0
+	TextLabel50["BackgroundColor3"] = Color3.new(1, 1, 1)
+	----TextLabel50----
+	--UITextSizeConstraint51--
+	local UITextSizeConstraint51 = Instance.new("UITextSizeConstraint",TextLabel50)
+	UITextSizeConstraint51["MaxTextSize"] = 16
+	----UITextSizeConstraint51----
 	--TextLabel52--
-	local TextLabel52 = Instance.new("TextLabel",Frame45)
+	local TextLabel52 = Instance.new("TextLabel",Frame43)
 	TextLabel52["TextWrapped"] = true
 	TextLabel52["TextXAlignment"] = Enum.TextXAlignment.Left
 	TextLabel52["TextColor3"] = Color3.new(1, 1, 1)
 	TextLabel52["BorderColor3"] = Color3.new(0, 0, 0)
-	TextLabel52["Text"] = "Welcome,"
-	TextLabel52["TextSize"] = 16
+	TextLabel52["Text"] = "PlayerName"
+	TextLabel52["TextSize"] = 12
 	TextLabel52["TextScaled"] = true
 	TextLabel52["AnchorPoint"] = Vector2.new(0.5, 0.5)
 	TextLabel52["Font"] = Enum.Font.GothamMedium
-	TextLabel52["Name"] = "Welcome"
-	TextLabel52["Position"] = UDim2.new(0.672405362, 0, 0.204599693, 0)
-	TextLabel52["Size"] = UDim2.new(0.600428045, 0, 0.197467282, 0)
+	TextLabel52["Name"] = "PlayerName"
+	TextLabel52["Position"] = UDim2.new(0.684922695, 0, 0.377104729, 0)
+	TextLabel52["Size"] = UDim2.new(0.49652943, 0, 0.197467282, 0)
 	TextLabel52["BackgroundTransparency"] = 1
 	TextLabel52["BorderSizePixel"] = 0
 	TextLabel52["BackgroundColor3"] = Color3.new(1, 1, 1)
 	----TextLabel52----
 	--UITextSizeConstraint53--
 	local UITextSizeConstraint53 = Instance.new("UITextSizeConstraint",TextLabel52)
-	UITextSizeConstraint53["MaxTextSize"] = 16
+	UITextSizeConstraint53["MaxTextSize"] = 12
 	----UITextSizeConstraint53----
-	--TextLabel54--
-	local TextLabel54 = Instance.new("TextLabel",Frame45)
-	TextLabel54["TextWrapped"] = true
-	TextLabel54["TextXAlignment"] = Enum.TextXAlignment.Left
-	TextLabel54["TextColor3"] = Color3.new(1, 1, 1)
-	TextLabel54["BorderColor3"] = Color3.new(0, 0, 0)
-	TextLabel54["Text"] = "PlayerName"
-	TextLabel54["TextSize"] = 12
-	TextLabel54["TextScaled"] = true
-	TextLabel54["AnchorPoint"] = Vector2.new(0.5, 0.5)
-	TextLabel54["Font"] = Enum.Font.GothamMedium
-	TextLabel54["Name"] = "PlayerName"
-	TextLabel54["Position"] = UDim2.new(0.724354684, 0, 0.387459248, 0)
-	TextLabel54["Size"] = UDim2.new(0.49652943, 0, 0.197467282, 0)
-	TextLabel54["BackgroundTransparency"] = 1
-	TextLabel54["BorderSizePixel"] = 0
-	TextLabel54["BackgroundColor3"] = Color3.new(1, 1, 1)
-	----TextLabel54----
-	--UITextSizeConstraint55--
-	local UITextSizeConstraint55 = Instance.new("UITextSizeConstraint",TextLabel54)
-	UITextSizeConstraint55["MaxTextSize"] = 12
-	----UITextSizeConstraint55----
-	--Script56--
-	local Script56 = Instance.new("Script",TextLabel54)
-	Script56["Name"] = "Name"
-	----Script56----
-	--TextLabel57--
-	local TextLabel57 = Instance.new("TextLabel",Frame45)
-	TextLabel57["TextWrapped"] = true
-	TextLabel57["TextXAlignment"] = Enum.TextXAlignment.Left
-	TextLabel57["TextColor3"] = Color3.new(1, 1, 1)
-	TextLabel57["BorderColor3"] = Color3.new(0, 0, 0)
-	TextLabel57["Text"] = "PlayerID"
-	TextLabel57["TextSize"] = 12
-	TextLabel57["TextScaled"] = true
-	TextLabel57["AnchorPoint"] = Vector2.new(0.5, 0.5)
-	TextLabel57["Font"] = Enum.Font.GothamMedium
-	TextLabel57["Name"] = "PlayerID"
-	TextLabel57["Position"] = UDim2.new(0.672738969, 0, 0.849420249, 0)
-	TextLabel57["Size"] = UDim2.new(0.599760771, 0, 0.197467282, 0)
-	TextLabel57["BackgroundTransparency"] = 1
-	TextLabel57["BorderSizePixel"] = 0
-	TextLabel57["BackgroundColor3"] = Color3.new(1, 1, 1)
-	----TextLabel57----
-	--UITextSizeConstraint58--
-	local UITextSizeConstraint58 = Instance.new("UITextSizeConstraint",TextLabel57)
-	UITextSizeConstraint58["MaxTextSize"] = 12
-	----UITextSizeConstraint58----
-	--Script59--
-	local Script59 = Instance.new("Script",TextLabel57)
-	Script59["Name"] = "PlayerID"
-	----Script59----
-	spawn(function() --Source for Script51
-		local script = Script51
+	--Script54--
+	local Script54 = Instance.new("Script",TextLabel52)
+	Script54["Name"] = "Name"
+	----Script54----
+	--TextLabel55--
+	local TextLabel55 = Instance.new("TextLabel",Frame43)
+	TextLabel55["TextWrapped"] = true
+	TextLabel55["TextXAlignment"] = Enum.TextXAlignment.Left
+	TextLabel55["TextColor3"] = Color3.new(1, 1, 1)
+	TextLabel55["BorderColor3"] = Color3.new(0, 0, 0)
+	TextLabel55["Text"] = "PlayerID"
+	TextLabel55["TextSize"] = 12
+	TextLabel55["TextScaled"] = true
+	TextLabel55["AnchorPoint"] = Vector2.new(0.5, 0.5)
+	TextLabel55["Font"] = Enum.Font.GothamMedium
+	TextLabel55["Name"] = "PlayerID"
+	TextLabel55["Position"] = UDim2.new(0.633307159, 0, 0.849420249, 0)
+	TextLabel55["Size"] = UDim2.new(0.599760771, 0, 0.197467282, 0)
+	TextLabel55["BackgroundTransparency"] = 1
+	TextLabel55["BorderSizePixel"] = 0
+	TextLabel55["BackgroundColor3"] = Color3.new(1, 1, 1)
+	----TextLabel55----
+	--UITextSizeConstraint56--
+	local UITextSizeConstraint56 = Instance.new("UITextSizeConstraint",TextLabel55)
+	UITextSizeConstraint56["MaxTextSize"] = 12
+	----UITextSizeConstraint56----
+	--Script57--
+	local Script57 = Instance.new("Script",TextLabel55)
+	Script57["Name"] = "PlayerID"
+	----Script57----
+	--Frame58--
+	local Frame58 = Instance.new("Frame",Frame40)
+	Frame58["AnchorPoint"] = Vector2.new(0.5, 0.5)
+	Frame58["Name"] = "KeyTime"
+	Frame58["Position"] = UDim2.new(0.656843543, 0, -0.110081322, 0)
+	Frame58["BorderColor3"] = Color3.new(0, 0, 0)
+	Frame58["Size"] = UDim2.new(0.686312914, 0, 0.171539351, 0)
+	Frame58["BorderSizePixel"] = 0
+	Frame58["BackgroundColor3"] = Color3.new(0.0862745, 0.0862745, 0.0862745)
+	----Frame58----
+	--UIStroke59--
+	local UIStroke59 = Instance.new("UIStroke",Frame58)
+	UIStroke59["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border
+	UIStroke59["Color"] = Color3.new(0.333333, 0.333333, 0.333333)
+	----UIStroke59----
+	--TextLabel60--
+	local TextLabel60 = Instance.new("TextLabel",Frame58)
+	TextLabel60["TextWrapped"] = true
+	TextLabel60["TextXAlignment"] = Enum.TextXAlignment.Left
+	TextLabel60["TextColor3"] = Color3.new(1, 1, 1)
+	TextLabel60["BorderColor3"] = Color3.new(0, 0, 0)
+	TextLabel60["Text"] = "Key Time Left: "
+	TextLabel60["TextSize"] = 20
+	TextLabel60["TextScaled"] = true
+	TextLabel60["AnchorPoint"] = Vector2.new(0.5, 0.5)
+	TextLabel60["Font"] = Enum.Font.GothamMedium
+	TextLabel60["Name"] = "KeyTime"
+	TextLabel60["Position"] = UDim2.new(0.177451029, 0, 0.5, 0)
+	TextLabel60["Size"] = UDim2.new(0.302813381, 0, 0.700281739, 0)
+	TextLabel60["BackgroundTransparency"] = 1
+	TextLabel60["BorderSizePixel"] = 0
+	TextLabel60["BackgroundColor3"] = Color3.new(1, 1, 1)
+	----TextLabel60----
+	--UITextSizeConstraint61--
+	local UITextSizeConstraint61 = Instance.new("UITextSizeConstraint",TextLabel60)
+	UITextSizeConstraint61["MaxTextSize"] = 20
+	----UITextSizeConstraint61----
+	--TextLabel62--
+	local TextLabel62 = Instance.new("TextLabel",Frame58)
+	TextLabel62["TextWrapped"] = true
+	TextLabel62["TextXAlignment"] = Enum.TextXAlignment.Left
+	TextLabel62["TextColor3"] = Color3.new(1, 1, 1)
+	TextLabel62["BorderColor3"] = Color3.new(0, 0, 0)
+	TextLabel62["Text"] = "24:00:00"
+	TextLabel62["TextSize"] = 20
+	TextLabel62["TextScaled"] = true
+	TextLabel62["AnchorPoint"] = Vector2.new(0.5, 0.5)
+	TextLabel62["Font"] = Enum.Font.GothamMedium
+	TextLabel62["Name"] = "Timer"
+	TextLabel62["Position"] = UDim2.new(0.50000006, 0, 0.5, 0)
+	TextLabel62["Size"] = UDim2.new(0.302813381, 0, 0.700281739, 0)
+	TextLabel62["BackgroundTransparency"] = 1
+	TextLabel62["BorderSizePixel"] = 0
+	TextLabel62["BackgroundColor3"] = Color3.new(1, 1, 1)
+	----TextLabel62----
+	--UITextSizeConstraint63--
+	local UITextSizeConstraint63 = Instance.new("UITextSizeConstraint",TextLabel62)
+	UITextSizeConstraint63["MaxTextSize"] = 20
+	----UITextSizeConstraint63----
+	--TextButton64--
+	local TextButton64 = Instance.new("TextButton",Frame58)
+	TextButton64["TextColor3"] = Color3.new(1, 1, 1)
+	TextButton64["BorderColor3"] = Color3.new(0, 0, 0)
+	TextButton64["Text"] = ""
+	TextButton64["AutoButtonColor"] = false
+	TextButton64["AnchorPoint"] = Vector2.new(0.5, 0.5)
+	TextButton64["Font"] = Enum.Font.GothamMedium
+	TextButton64["Name"] = "GetNewKey"
+	TextButton64["Position"] = UDim2.new(0.881001294, 0, 0.494316757, 0)
+	TextButton64["TextSize"] = 10
+	TextButton64["Size"] = UDim2.new(0.181148902, 0, 0.513243794, 0)
+	TextButton64["BorderSizePixel"] = 0
+	TextButton64["BackgroundColor3"] = Color3.new(0.0666667, 0.0666667, 0.0666667)
+	----TextButton64----
+	--UICorner65--
+	local UICorner65 = Instance.new("UICorner",TextButton64)
+	UICorner65["CornerRadius"] = UDim.new(0.200000003, 0)
+	----UICorner65----
+	--UIStroke66--
+	local UIStroke66 = Instance.new("UIStroke",TextButton64)
+	UIStroke66["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border
+	UIStroke66["Color"] = Color3.new(0.333333, 0.333333, 0.333333)
+	----UIStroke66----
+	--TextLabel67--
+	local TextLabel67 = Instance.new("TextLabel",TextButton64)
+	TextLabel67["TextWrapped"] = true
+	TextLabel67["TextColor3"] = Color3.new(1, 1, 1)
+	TextLabel67["BorderColor3"] = Color3.new(0, 0, 0)
+	TextLabel67["Text"] = "Get New Key"
+	TextLabel67["TextSize"] = 10
+	TextLabel67["TextScaled"] = true
+	TextLabel67["AnchorPoint"] = Vector2.new(0.5, 0.5)
+	TextLabel67["Font"] = Enum.Font.GothamMedium
+	TextLabel67["Name"] = "Title"
+	TextLabel67["Position"] = UDim2.new(0.5, 0, 0.5, 0)
+	TextLabel67["Size"] = UDim2.new(1, 0, 0.700878561, 0)
+	TextLabel67["BackgroundTransparency"] = 1
+	TextLabel67["BorderSizePixel"] = 0
+	TextLabel67["BackgroundColor3"] = Color3.new(1, 1, 1)
+	----TextLabel67----
+	--UITextSizeConstraint68--
+	local UITextSizeConstraint68 = Instance.new("UITextSizeConstraint",TextLabel67)
+	UITextSizeConstraint68["MaxTextSize"] = 10
+	----UITextSizeConstraint68----
+	--UICorner69--
+	local UICorner69 = Instance.new("UICorner",Frame58)
+	UICorner69["CornerRadius"] = UDim.new(0.200000003, 0)
+	----UICorner69----
+	--UICorner70--
+	local UICorner70 = Instance.new("UICorner",Frame40)
+	UICorner70["CornerRadius"] = UDim.new(0.0199999996, 0)
+	----UICorner70----
+	spawn(function() --Source for Script32
+		local script = Script32
+		local TweenService = game:GetService("TweenService")
+		
+		local Holder = script.Parent
+		
+		-- Home Button
+		
+		local homeButton = Holder:WaitForChild("Home")
+		local homeIcon = homeButton:WaitForChild("HomeIcon")
+		local homeLabel = homeButton:WaitForChild("Title")
+		local homeUIStroke = homeButton:WaitForChild("UIStroke")
+		
+		-- Editor Button
+		
+		local editorButton = Holder:WaitForChild("Editor")
+		local editorIcon = editorButton:WaitForChild("EditorIcon")
+		local editorLabel = editorButton:WaitForChild("Title")
+		local editorUIStroke = editorButton:WaitForChild("UIStroke")
+		
+		-- Scripts Button
+		
+		local scriptsButton = Holder:WaitForChild("Scripts")
+		local scriptsIcon = scriptsButton:WaitForChild("ScriptsIcon")
+		local scriptsLabel = scriptsButton:WaitForChild("Title")
+		local scriptsUIStroke = scriptsButton:WaitForChild("UIStroke")
+		
+		-- Settings Button
+		
+		local settingsButton = Holder:WaitForChild("Settings")
+		local settinsIcon = settingsButton:WaitForChild("SettingsIcon")
+		local settinsLabel = settingsButton:WaitForChild("Title")
+		local settingsUIStroke = settingsButton:WaitForChild("UIStroke")
+		
+		-- Colour + Tween Info
+		
+		local targetColor = Color3.fromRGB(135, 186, 227)
+		local orignialColor = Color3.fromRGB(225,225,225)
+		local strokeColor = Color3.fromRGB(85, 85, 85)
+		local tweenInfo = TweenInfo.new(.2, Enum.EasingStyle.Linear, Enum.EasingDirection.Out)
+		
+		-- Functions
+		
+		local function fadeColor(object, property, startColor, endColor)
+			local tween = TweenService:Create(object, tweenInfo, { [property] = endColor })
+			tween:Play()
+		end
+		
+		-- Fade In's
+		local function homeFadeIn()
+			fadeColor(homeLabel, "TextColor3", homeLabel.TextColor3, targetColor)
+			fadeColor(homeUIStroke, "Color", homeUIStroke.Color, targetColor)
+			fadeColor(homeIcon, "ImageColor3", homeIcon.ImageColor3, targetColor)
+		end
+		
+		local function editorFadeIn()
+			fadeColor(editorLabel, "TextColor3", editorLabel.TextColor3, targetColor)
+			fadeColor(editorUIStroke, "Color", editorUIStroke.Color, targetColor)
+			fadeColor(editorIcon, "ImageColor3", editorIcon.ImageColor3, targetColor)
+		end
+		
+		local function scriptsFadeIn()
+			fadeColor(scriptsLabel, "TextColor3", scriptsLabel.TextColor3, targetColor)
+			fadeColor(scriptsUIStroke, "Color", scriptsUIStroke.Color, targetColor)
+			fadeColor(scriptsIcon, "ImageColor3", scriptsIcon.ImageColor3, targetColor)
+		end
+		
+		local function settingsFadeIn()
+			fadeColor(settinsLabel, "TextColor3", settinsLabel.TextColor3, targetColor)
+			fadeColor(settingsUIStroke, "Color", settingsUIStroke.Color, targetColor)
+			fadeColor(settinsIcon, "ImageColor3", settinsIcon.ImageColor3, targetColor)
+		end
+		
+		-- Fade Out's
+		local function homeFadeOut()
+			fadeColor(homeLabel, "TextColor3", homeLabel.TextColor3, orignialColor)
+			fadeColor(homeUIStroke, "Color", homeUIStroke.Color, strokeColor)
+			fadeColor(homeIcon, "ImageColor3", homeIcon.ImageColor3, orignialColor)
+		end
+		
+		local function editorFadeOut()
+			fadeColor(editorLabel, "TextColor3", editorLabel.TextColor3, orignialColor)
+			fadeColor(editorUIStroke, "Color", editorUIStroke.Color, strokeColor)
+			fadeColor(editorIcon, "ImageColor3", editorIcon.ImageColor3, orignialColor)
+		end
+		
+		local function scriptsFadeOut()
+			fadeColor(scriptsLabel, "TextColor3", scriptsLabel.TextColor3, orignialColor)
+			fadeColor(scriptsUIStroke, "Color", scriptsUIStroke.Color, strokeColor)
+			fadeColor(scriptsIcon, "ImageColor3", scriptsIcon.ImageColor3, orignialColor)
+		end
+		
+		local function settingsFadeOut()
+			fadeColor(settinsLabel, "TextColor3", settinsLabel.TextColor3, orignialColor)
+			fadeColor(settingsUIStroke, "Color", settingsUIStroke.Color, strokeColor)
+			fadeColor(settinsIcon, "ImageColor3", settinsIcon.ImageColor3, orignialColor)
+		end
+		
+		-- Code
+		
+		homeButton.MouseButton1Click:Connect(function()
+			homeFadeIn()
+			editorFadeOut()
+			scriptsFadeOut()
+			settingsFadeOut()
+		end)
+		
+		
+		editorButton.MouseButton1Click:Connect(function()
+			homeFadeOut()
+			editorFadeIn()
+			scriptsFadeOut()
+			settingsFadeOut()
+		end)
+		
+		scriptsButton.MouseButton1Click:Connect(function()
+			homeFadeOut()
+			editorFadeOut()
+			scriptsFadeIn()
+			settingsFadeOut()
+		end)
+		
+		settingsButton.MouseButton1Click:Connect(function()
+			homeFadeOut()
+			editorFadeOut()
+			scriptsFadeOut()
+			settingsFadeIn()
+		end)
+	end)
+	spawn(function() --Source for Script49
+		local script = Script49
 		local Players = game:GetService("Players")
 		local player = Players.LocalPlayer
 		local imageLabel = script.Parent
@@ -523,16 +748,16 @@ local function createGui(parent)
 		local content, isReady = Players:GetUserThumbnailAsync(userId, thumbType, thumbSize)
 		imageLabel.Image = content
 	end)
-	spawn(function() --Source for Script56
-		local script = Script56
+	spawn(function() --Source for Script54
+		local script = Script54
 		local Players = game:GetService("Players")
 		local player = Players.LocalPlayer
 		local textLabel = script.Parent
 		local playerName = player.Name
 		textLabel.Text = playerName
 	end)
-	spawn(function() --Source for Script59
-		local script = Script59
+	spawn(function() --Source for Script57
+		local script = Script57
 		local Players = game:GetService("Players")
 		local player = Players.LocalPlayer
 		local textLabel = script.Parent

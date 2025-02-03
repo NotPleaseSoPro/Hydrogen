@@ -4,6 +4,9 @@ local function createGui(parent)
 	ScreenGui1["IgnoreGuiInset"] = true
 	ScreenGui1["Name"] = "HydrogenGUI"
 	ScreenGui1["DisplayOrder"] = 2
+	ScreenGui1["ClipToDeviceSafeArea"] = 0
+	ScreenGui1["SafeAreaCompatibility"] = 0
+	
 	----ScreenGui1----
 	--Frame2--
 	local Frame2 = Instance.new("Frame",ScreenGui1)
